@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <defs>
+    <linearGradient id="full_u" x1="6" y1="38" x2="26" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C2410C" />
+      <stop offset="60%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#FF6B2C" />
+    </linearGradient>
+    <linearGradient id="full_arrow" x1="16" y1="36" x2="40" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="50%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FED7AA" />
+    </linearGradient>
+    <filter id="full_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#FF6B2C" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Vector Aero-Surge Emblem -->
+  <g transform="translate(4, 2)">
+    <path d="M8 8V25C8 32 13.5 37.5 20.5 37.5C22.8 37.5 25 36.8 26.8 35.6L23.8 30.6C22.8 31.2 21.7 31.5 20.5 31.5C16.9 31.5 14 28.6 14 25V8H8Z" fill="url(#full_u)" />
+    <path d="M20.5 31.5L38 8M38 8H26M38 8V20" stroke="url(#full_arrow)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#full_glow)" />
+    <path d="M28 27L37 16" stroke="#FDBA74" stroke-width="2.6" stroke-linecap="round" opacity="0.9" />
+  </g>
+
+  <!-- Typographic Wordmark: UPSWING -->
+  <text x="56" y="27" fill="#FFFFFF" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5">UPSWING</text>
+
+  <!-- Typographic Submark: AGENCY -->
+  <text x="56" y="39" fill="#FF6B2C" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700" letter-spacing="2.8">AGENCY</text>
+</svg>

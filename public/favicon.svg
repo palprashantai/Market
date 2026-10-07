@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="favPlate" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E172A" />
+      <stop offset="100%" stop-color="#080D1A" />
+    </linearGradient>
+    <linearGradient id="favU" x1="8" y1="38" x2="26" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C2410C" />
+      <stop offset="60%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#FF6B2C" />
+    </linearGradient>
+    <linearGradient id="favArrow" x1="18" y1="36" x2="40" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="50%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FED7AA" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background tile for high browser-tab contrast -->
+  <rect width="48" height="48" rx="12" fill="url(#favPlate)" stroke="rgba(255, 107, 44, 0.4)" stroke-width="1.2" />
+
+  <!-- Aero-Surge Vector Core -->
+  <g transform="translate(2, 2)">
+    <path d="M8 8V25C8 32 13.5 37.5 20.5 37.5C22.8 37.5 25 36.8 26.8 35.6L23.8 30.6C22.8 31.2 21.7 31.5 20.5 31.5C16.9 31.5 14 28.6 14 25V8H8Z" fill="url(#favU)" />
+    <path d="M20.5 31.5L38 8M38 8H26M38 8V20" stroke="url(#favArrow)" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
